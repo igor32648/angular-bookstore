@@ -1,3 +1,4 @@
+import { Book } from './../model/book';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class BooksComponent {
 
+  books: Book[] = [
+    {_id: '1', title: 'Angular', category: 'PC', author: 'Igor'}
+  ];
+
+  displayedColumns = ['title', 'category', 'author'];
+
+  constructor() {  }
 }
