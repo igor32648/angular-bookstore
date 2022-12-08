@@ -1,1 +1,20 @@
-[{ "_id": "1", "title": "Angular", "category": "PC", "author": "Igor" }]
+[
+    {
+        "_id": "1",
+        "title": "Angular",
+        "category": "romance",
+        "author": "Igor"
+    },
+    {
+        "_id": "2",
+        "title": "Java",
+        "category": "horror",
+        "author": "Anne"
+    },
+    {
+        "_id": "3",
+        "title": "Xuxa",
+        "category": "kids",
+        "author": "Tidinha"
+    }
+]
